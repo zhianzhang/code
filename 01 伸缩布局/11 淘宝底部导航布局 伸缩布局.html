@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+            ul{
+                 list-style: none;
+                 margin: 0;
+                 padding: 0;
+                 width: 600px;
+                 height: 40px;
+                 border: 1px solid #ccc;
+                /*
+                    指定父元素是伸缩盒子
+                */
+                 display: flex;
+            }
+            li{
+                 /*width:20%;使用百分比去控制*/
+                 flex: 1; /*使用伸缩去控制宽度*/
+                 height: 40px;
+                 float: left;
+                 line-height: 40px;
+                 text-align: center;
+                 background: pink;
+                 color: #fff;
+            }
+
+    </style>
+
+</head>
+<body>
+
+        <ul>
+            <li>消息</li>
+            <li>通讯录</li>
+            <li>发现</li>
+            <li>我的</li>
+            <li>更多</li>
+        </ul>
+
+</body>
+</html>

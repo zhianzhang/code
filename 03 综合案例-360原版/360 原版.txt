@@ -1,0 +1,44 @@
+做案例
+    1：页面的基本结构布局
+    2：css
+    3：js 效果。
+    /**
+       鼠标滚轮事件，监听鼠标的滚轮，滚动，触发一下。
+document.onmonse
+
+    **/
+    现在我们要使用的一个框架叫做基于jQuery 的一个插件。
+jQuery fullpage
+    我在页面要使用的这个插件
+    1：我需要导入jquery
+    2: fullpage.js 文件 插件的底层监听鼠标滚轮事件。
+
+
+
+transtion: 过度的
+transform： 移动的，旋转的，缩放的     x，y,z
+
+动画：
+animation: change 1s linear 1s infinite;
+@keyframes change{
+      0%{
+
+      }
+      10%
+      {
+
+      }
+      100%{
+
+      }
+}
+
+
+
+
+
+
+
+
+
+

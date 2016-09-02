@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--
+            使用字体
+    -->
+    <style>
+            /*我需要先把字体引入进来.*/
+            @font-face {
+                /*我需要给这套字体取一个名字*/
+                font-family: itcast;
+
+                src: url('webfont.eot'); /* IE9*/
+                /*
+                fix 修复   format 格式化
+                */
+                src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+                url('webfont.woff') format('woff'), /* chrome、firefox */
+                /*针对移动端的浏览器*/
+                url('webfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+               url('webfont.svg#webfont') format('svg'); /* iOS 4.1- */
+                /*
+                  必须这些字体文件能够对这些字进行解析
+                */
+
+            }
+
+            p{
+                    /*引用上面定义的字体*/
+                    font-family: itcast;
+            }
+
+    </style>
+
+</head>
+<body>
+<p>英雄不问出处，流氓不看岁数，啊哈啊哈</p>
+</body>
+</html>
